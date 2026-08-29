@@ -1,0 +1,13 @@
+n1 = int(input('Digite um valor: '))
+n2 = float(input('Digite um valor: '))
+n3 = bool(input('Digite um valor: '))
+n4 = str(input('Digite um valor: '))
+print(type(n1), n1)
+print(type(n2), n2)
+print(type(n3), n3)
+print(type(n4), n4)
+
+n = input('Digite algo: ')
+print(n.isnumeric())
+print(n.isalpha())
+print(n.isalnum())
