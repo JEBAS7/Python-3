@@ -13,6 +13,10 @@ print(frase.upper().count('O'))
 print(len(frase))
 frase = frase.replace('Python', 'Android')
 print(frase)
+print(frase.lower().find('vídeo'))
+dividido = frase.split()
+print(dividido[0])
+print(dividido[2][3])
 
 print(frase[:5])
 
