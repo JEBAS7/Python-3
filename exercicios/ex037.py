@@ -2,11 +2,13 @@ numero = int(input('Digite um número: '))
 print('-1 para binário\n-2 para octal\n-3 para hexadecimal')
 base = int(input('Qual é a base de conversão? '))
 if base == 1:
-    binario = bin(numero)
+    binario = bin(numero)[2:]
     print(f'O número {numero} para binário é {binario}')
-if base == 2:
-    octal = oct(numero)
+elif base == 2:
+    octal = oct(numero)[2:]
     print(f'O número {numero} para octal é {octal}')
-if base == 3:
-    hexadecimal = hex(numero)
+elif base == 3:
+    hexadecimal = hex(numero)[2:]
     print(f'O número {numero} para hexadecimal é {hexadecimal}')
+else:
+    print('Base inválida! tente novamente.')

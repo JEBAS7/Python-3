@@ -10,7 +10,7 @@ print('\033[1;33mJO')
 sleep(1)
 print('KEN')
 sleep(1)
-print('PÔ\033[m')
+print('PÔ!!!\033[m')
 sleep(1)
 if cpu == jogador:
     print(f'Computador escolheu {cpu}, Jogador escolheu {jogador}')

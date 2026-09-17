@@ -1,9 +1,10 @@
+print('{:=^40}'.format(' LOJAS GUANABARA '))
 preco = float(input('Digite o preço do produto: R$'))
-print('Forma de pagamento\n'
-      'Digite 1 para dinheiro ou cheque a vista\n'
-      'Digite 2 para cartão a vista\n'
-      'Digite 3 para 2x no cartão\n'
-      'Digite 4 para 3x ou mais no cartão')
+print('''FORMAS DE PAGAMENTO
+Digite 1 para dinheiro ou cheque a vista
+Digite 2 para cartão a vista
+Digite 3 para 2x no cartão
+Digite 4 para 3x ou mais no cartão''')
 pagamento = int(input('Como você vai pagar? '))
 if pagamento == 1:
     valor = preco - preco * 10 / 100
