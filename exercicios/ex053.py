@@ -6,6 +6,7 @@ palavras = frase.split()
 frase_junta = ''.join(palavras)
 
 frase_invertida = ''
+# frase_invertida = frase_junta[::-1] # solução simplificada sem o for, por fatiamento de strings
 
 # Loop para inverter a frase de trás para frente
 for letra in range(len(frase_junta) - 1, -1, -1):
